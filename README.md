@@ -8,16 +8,13 @@
 </p>
 
 ## tentang http client
-
-
-
+---
 HTTP client adalah perangkat lunak atau komponen perangkat lunak yang digunakan untuk mengirim permintaan HTTP (Hypertext Transfer Protocol) ke server web dan menerima respons HTTP dari server tersebut. HTTP client berfungsi sebagai antarmuka yang memungkinkan aplikasi untuk berkomunikasi dengan server web, mengakses sumber daya seperti halaman web, API, dan layanan web lainnya.
 
 Beberapa fitur dan fungsi utama dari HTTP client termasuk:
 
 
 1. Mengirim Permintaan HTTP: HTTP client dapat mengirim berbagai jenis permintaan HTTP, seperti GET (untuk mengambil data), POST (untuk mengirim data), PUT (untuk memperbarui data), DELETE (untuk menghapus data), dan lain-lain.
-
 
 2. Menerima Respons HTTP: HTTP client menerima respons dari server, yang mencakup kode status HTTP (seperti 200 OK, 404 Not Found), header respons, dan isi respons (body).
 
@@ -26,3 +23,15 @@ Beberapa fitur dan fungsi utama dari HTTP client termasuk:
 4. Otentikasi dan Otorisasi: HTTP client sering kali menyediakan mekanisme untuk mengelola otentikasi (seperti Basic Auth, OAuth) untuk mengakses sumber daya yang dilindungi.
 
 5. Mengelola Koneksi dan Timeout: HTTP client bisa mengatur aspek-aspek koneksi jaringan seperti timeout, penggunaan proxy, dan pengelolaan koneksi yang efisien.
+
+### Fungsi Utama HTTP Client
+
+1. Mengirim Permintaan (Request):
+
+> - GET: Mengambil data dari server.
+> - POST: Mengirim data ke server.
+> - PUT: Memperbarui data di server.
+> - DELETE: Menghapus data dari server.
+> - HEAD: Mengambil header dari respon, tanpa body.
+> - OPTIONS: Mengambil informasi tentang metode HTTP yang didukung oleh server.
+> - PATCH: Memperbarui sebagian data di server.
