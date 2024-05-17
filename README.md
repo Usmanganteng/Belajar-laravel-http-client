@@ -35,3 +35,6 @@ Beberapa fitur dan fungsi utama dari HTTP client termasuk:
 > - HEAD: Mengambil header dari respon, tanpa body.
 > - OPTIONS: Mengambil informasi tentang metode HTTP yang didukung oleh server.
 > - PATCH: Memperbarui sebagian data di server.
+
+## terima kasih
+---
