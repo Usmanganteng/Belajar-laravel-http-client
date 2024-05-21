@@ -24,6 +24,14 @@ Beberapa fitur dan fungsi utama dari HTTP client termasuk:
 
 5. Mengelola Koneksi dan Timeout: HTTP client bisa mengatur aspek-aspek koneksi jaringan seperti timeout, penggunaan proxy, dan pengelolaan koneksi yang efisien.
 
+### Kelemahan Http client
+1. Kurangnya enkripsi: Jika Anda melihat "http://" di URL, bukan "https://", berarti koneksi tidak dienkripsi. Hal ini dapat membuat data yang dikirimkan antara klien dan server rentan terhadap intersepsi dan gangguan.
+
+2. Cookie tidak aman: Jika server menyetel cookie tanpa tanda "Aman", cookie tersebut dapat dicegat oleh penyerang melalui koneksi yang tidak aman.
+
+3. Konten campuran: Jika situs web menggunakan sumber daya HTTP dan HTTPS, hal itu dapat menimbulkan kerentanan keamanan. Misalnya, penyerang dapat mengganti sumber daya HTTP dengan versi berbahaya.
+ 
+
 ### Fungsi Utama HTTP Client
 
 1. Mengirim Permintaan (Request):
